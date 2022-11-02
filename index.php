@@ -29,7 +29,7 @@ $db_server = getenv("DB_SERVER");
 $db_name = getenv("DB_NAME");
 $location = getenv("LOCATION");
 $connectionString = "sqlsrv:server=$db_server;Database=$db_name;Authentication=ActiveDirectoryMsi;";
-echo "This is a demo <a href=\"https://github.com/cybergavin/azure-cli-labs/tree/master/az-webapp-sql-smi\">PHP web application</a> (adapted from <a href=\"https://github.com/uglide/azure-content/blob/master/articles/app-service-web/web-sites-php-sql-database-deploy-use-git.md\" target=\"_blank\">here</a>) that is hosted in <b>".$location."</b> and running on an <b>Azure App Service Plan</b> with an <b>Azure SQL Database</b> (connection enabled by a <b>system-assigned managed identity</b>). ";
+echo "This is a demo (adapted from <a href=\"https://github.com/uglide/azure-content/blob/master/articles/app-service-web/web-sites-php-sql-database-deploy-use-git.md\" target=\"_blank\">here</a>) that is hosted in <b>".$location."</b> and running on an <b>Azure App Service Plan</b> with an <b>Azure SQL Database</b> (connection enabled by a <b>system-assigned managed identity</b>). ";
 echo "<br />The <b>Connection string</b> used for Azure SQL DB with a system-assigned managed identity is : <font color=\"green\">\"".$connectionString."\"</font>";
 ?>
 </p>
