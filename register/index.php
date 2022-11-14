@@ -41,7 +41,7 @@ echo "<br />The <b>Connection string</b> used for Azure SQL DB with a system-ass
 <br />
  <u><h2>Register here!</h2></u>
  <p>Fill in your name and email address, then click <strong>Submit</strong> to register.</p>
- <form method="post" action="index.php" enctype="multipart/form-data" >
+ <form method="post" action="/register/index.php" enctype="multipart/form-data" >
        Name  <input type="text" name="name" id="name"/></br></br>
        Email <input type="text" name="email" id="email"/></br></br></br>
        <input type="submit" name="submit" value="Submit" />
